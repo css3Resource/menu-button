@@ -1,0 +1,67 @@
+/* Your Css */
+
+html, body{
+	background: #3f4950;
+}
+
+#container{
+	width: 300px;
+	margin: 200px auto;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0;
+	float: left;
+}
+
+nav li{
+	display: inline;
+	margin-right: 7px;
+	border-radius: 5px;
+	background-color: #303c43;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#303c43), to(#232b30));
+	background-image: -webkit-linear-gradient(top, #303c43, #232b30);
+	background-image:    -moz-linear-gradient(top, #303c43, #232b30);
+	background-image:     -ms-linear-gradient(top, #303c43, #232b30);
+	background-image:      -o-linear-gradient(top, #303c43, #232b30);
+	background-image:         linear-gradient(top, #303c43, #232b30);
+	border: 1px solid #273138;
+	padding: 9px 0;
+	color: #9fa8b0;
+}
+
+nav li a{
+	text-decoration: none;
+	text-shadow: #1f272b 0 1px 0;
+	border-top: 1px solid #3d4850;
+	padding: 8px 13px;
+	border-radius: 5px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+nav li:hover{
+	background-color: #404f5a;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#404f5a), to(#2e3940));
+	background-image: -webkit-linear-gradient(top, #404f5a, #2e3940);
+	background-image:    -moz-linear-gradient(top, #404f5a, #2e3940);
+	background-image:     -ms-linear-gradient(top, #404f5a, #2e3940);
+	background-image:      -o-linear-gradient(top, #404f5a, #2e3940);
+	background-image:         linear-gradient(top, #404f5a, #2e3940);
+}
+
+nav li:hover a{
+	color: #fff;
+	border-top: 1px solid #4c5a64;
+}
+
+nav li:active{
+	background: #252e34;
+	box-shadow:inset 0 0 10px #20282d;
+}
+
+nav li:active a{
+	color: #fff;
+	border: none;
+}
